@@ -159,9 +159,7 @@ class QRScanner : CDVPlugin, AVCaptureMetadataOutputObjectsDelegate {
                     AVMetadataObjectTypeDataMatrixCode,
                     AVMetadataObjectTypeEAN13Code,
                     AVMetadataObjectTypeEAN8Code,
-                    AVMetadataObjectTypeUPCECode,
-                   
-                    
+                    AVMetadataObjectTypeUPCECode,   
                 ]
                 captureVideoPreviewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
                 cameraView.addPreviewLayer(captureVideoPreviewLayer)
